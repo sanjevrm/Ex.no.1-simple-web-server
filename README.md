@@ -42,6 +42,7 @@ Stop the Spring Boot server once testing is complete.
 
 ## Program 
 
+```
 simple-web-server/
 ├── src/
 │   └── main/
@@ -53,7 +54,9 @@ simple-web-server/
 │           └── application.properties
 ├── pom.xml
 
+```
  ### Pom.xml
+```xml
 
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -91,8 +94,10 @@ simple-web-server/
         </plugins>
     </build>
 </project>
-
+```
 ### DemoApplication.java
+
+```java
 
 package com.example.demo;
 
@@ -106,8 +111,12 @@ public class DemoApplication {
     }
 }
 
+```
 
 ### HelloController.java
+
+```java
+
 package com.example.demo;
 
 import org.springframework.web.bind.annotation.GetMapping;
@@ -122,7 +131,7 @@ public class HelloController {
     }
 }
 
-
+```
 ### application.properties:
 
  server.port=8081
@@ -130,6 +139,8 @@ public class HelloController {
 
 
 
-Output:
+## Output:
+
+<img width="1105" height="967" alt="image" src="https://github.com/user-attachments/assets/cbcb7919-9475-4dac-9bd3-49bdcf27ca0b" />
 
 
